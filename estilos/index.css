@@ -42,6 +42,8 @@
 
 
 
+
+
 @media (max-width: 900px){
 
     .header-index {
@@ -61,6 +63,10 @@
         color: var(--branca);
     }
 
+    
+
+    
+
 }
 
 @media (max-width: 600px){
@@ -69,6 +75,8 @@
         flex-direction: column;
         margin-bottom: 16px;
     }
+
+    
     
 
 }
