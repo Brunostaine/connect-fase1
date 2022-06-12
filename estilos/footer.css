@@ -28,3 +28,12 @@
     color: var(--branca);
    
 }
+
+.footer a img {
+    width: 32px;
+    margin-right: 16px;
+}
+
+.footer a img:hover {
+    color: var(--cinza2);
+}
