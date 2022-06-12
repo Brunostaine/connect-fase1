@@ -57,7 +57,7 @@
 }
 
 .quem-somos h2 {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: var(--font-titulo);
     font-size: 1.5rem;
     font-weight: 600;
     color: var(--cor3);
@@ -66,7 +66,7 @@
 }
 
 .quem-somos p {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: var(--font-paragrafo);
     font-size: 14px;
     font-weight: 100;
     text-align: justify;
@@ -112,7 +112,7 @@
 }
 
 .o-que-fazemos h2 {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: var(--font-titulo);
     font-size: 1.5rem;
     font-weight: 600;
     color: var(--cor3);
@@ -121,7 +121,7 @@
 }
 
 .o-que-fazemos p {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: var(--font-paragrafo);
     font-size: 14px;
     font-weight: 100;
     text-align: justify;
@@ -146,7 +146,7 @@
 .objetivos h2 {
     background-color: var(--cor3);
     
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: var(--font-titulo);
     font-size: 5rem;
     font-weight: 600;
     color: var(--branca);
@@ -163,18 +163,15 @@
 }
 
 .objetivos p {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: var(--font-paragrafo);
     font-size: 14px;
     font-weight: 100;
     line-height: 18px;
     text-align: justify;
     text-indent: 40px;
     
-
     width: 50%;
     margin-bottom: 32px;
-    
-    
 }
 
 
@@ -209,10 +206,6 @@
         color: var(--branca);
     }
 
-    
-
-    
-
 }
 
 @media (max-width: 600px){
@@ -221,8 +214,5 @@
         flex-direction: column;
         margin-bottom: 16px;
     }
-
-    
-    
 
 }
