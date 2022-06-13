@@ -1,0 +1,39 @@
+/*  HEADER */
+
+.header-index {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    width: 100%;
+}
+
+.header-index a img {
+    width: 200px;
+}
+
+/* NAV */
+
+.nav-index ul {
+    display: flex;
+    list-style: none;
+}
+
+.nav-index ul li {
+    padding: 16px;
+}
+
+.nav-index ul li a {
+    font-family: var(--font-menu);
+    color: var(--cinza1);
+    font-weight: 600;
+    font-size: 1.2rem;
+    text-decoration: none;
+    transition: all .6s;
+}
+
+.nav-index ul li a:hover {
+    
+    color: var(--cinza2);
+    
+}
