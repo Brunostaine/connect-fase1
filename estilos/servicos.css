@@ -32,3 +32,54 @@
     box-shadow: 1px 1px 10px 1px #777;
     margin-bottom: 16px;
 }
+
+.card {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    margin-bottom: 16px;
+}
+
+.card-item {
+    border: 1px solid #777;
+    box-shadow: 1px 1px 10px 1px #777;
+    border-radius: 5px;
+    width: 300px;
+    height: 200px;
+    margin: 8px;
+    padding: 8px;
+    background-color: var(--azul);
+    transition: all 1s;
+}
+
+.card-item:hover {
+    transform: scale(1.1);
+}
+
+.card-item h3 {
+    text-align: center;
+    font-family: var(--font-titulo);
+    color: var(--branca);
+
+    margin-bottom: 8px;
+}
+
+.card-item p {
+    font-family: var(--font-paragrafo);
+    color: var(--branca);
+
+    margin-bottom: 8px;
+}
+
+.card button {
+    padding: 8px;
+    border-radius: 10px;
+    border: none;
+    font-family: var(--font-paragrafo);
+    transition: .6s;
+}
+.card button:hover {
+    background-color: var(--azulHover);
+    color: var(--branca);
+}
