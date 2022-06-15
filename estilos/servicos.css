@@ -101,11 +101,13 @@
     margin: 16px;
     padding: 64px;
     
-    
+    justify-content: center;
+    align-items: center;
 
 }
 
 #sistemasWeb #appMobile #sistemaDesktop {
+    display: flex;
 }
 
 .sistemas-titulo{
@@ -132,7 +134,9 @@
     font-family: var(--font-paragrafo);
     line-height: 22px;
     margin-bottom: 16px;
-    text-align: center;
+    text-align: justify;
+
+    width: 600px;
     
 }
 
