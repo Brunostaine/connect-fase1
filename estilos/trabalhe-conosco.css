@@ -14,10 +14,13 @@ form {
     text-align: center;
     font-family: var(--font-titulo);
     text-transform: uppercase;
+
+    margin-bottom: 16px;
 }
 
 .form p {
     font-family: var(--font-paragrafo);
+    
 }
 
 .form-border {
@@ -28,10 +31,13 @@ form {
     display: flex;
     flex-wrap: wrap;
 
+    margin-bottom: 32px;
+
 }
 
 .form-border p {
     text-align: center;
+    margin: 16px auto;
     padding: 8px;
 }
 
