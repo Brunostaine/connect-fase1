@@ -60,3 +60,20 @@ form {
     
 }
 
+.button {
+    font-family: var(--font-paragrafo);
+    border: none;
+    background-color: var(--azul);
+    color: var(--branca);
+
+    padding: 4px 8px;
+    border-radius: 5px;
+    width: auto;
+
+    margin: 16px auto;
+}
+
+.button:hover {
+    background-color: var(--azulHover);
+}
+
