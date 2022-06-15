@@ -141,3 +141,21 @@
     text-align: center;
     line-height: 22px;
 }
+
+/* videos */
+.videos {
+    display: flex;
+    justify-content: space-around;
+}
+
+.videos h2 {
+    font-family: var(--font-titulo);
+    text-align: center;
+    margin: 8px;
+}
+
+.videos iframe {
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px 2px #777;
+    margin-bottom: 32px;
+}
