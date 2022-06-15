@@ -83,3 +83,61 @@
     background-color: var(--azulHover);
     color: var(--branca);
 }
+
+.card button a{
+    text-decoration: none;
+    color: #000;
+    font-weight: 300;
+}
+
+.card button a:hover{
+    color: var(--branca);
+}
+
+.sistemas {
+    display: flex;
+    flex-direction: column;
+
+    margin: 16px;
+    padding: 64px;
+    
+    
+
+}
+
+#sistemasWeb #appMobile #sistemaDesktop {
+}
+
+.sistemas-titulo{
+    text-align: center;
+    font-family: var(--font-titulo);
+    font-size: 3rem;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+.sistemas h2{
+    text-align: center;
+    font-family: var(--font-titulo);
+    margin: 16px;
+}
+
+.sistemas h3{
+    text-align: center;
+    font-family: var(--font-titulo);
+    margin: 16px;
+}
+
+.sistemas p {
+    font-family: var(--font-paragrafo);
+    line-height: 22px;
+    margin-bottom: 16px;
+    text-align: center;
+    
+}
+
+.sistemas ul {
+    list-style: none;
+    text-align: center;
+    line-height: 22px;
+}
