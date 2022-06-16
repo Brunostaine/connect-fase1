@@ -171,7 +171,7 @@
     }
 
     .quem-somos {
-        display: flex;
+        
         flex-direction: column;
         width: 100%;
         padding: 0;
@@ -180,6 +180,31 @@
     .quem-somos div {
         margin-right: 0;
         width: 95%;
+    }
+
+    .o-que-fazemos {
+        flex-direction: column;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        margin-top: 8px;
+    }
+
+    .o-que-fazemos div {
+        margin-right: 0;
+        width: 95%;
+    }
+
+    .objetivos p {        
+        width: 90%;
+    }
+
+    .objetivos img {
+        width: 100%;
+        height: auto;
+    
+        border-radius: 0;
+        box-shadow: 1px 1px 10px #777;
     }
 
 }
