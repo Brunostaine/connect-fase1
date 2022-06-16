@@ -170,6 +170,18 @@
         color: var(--branca);
     }
 
+    .quem-somos {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    .quem-somos div {
+        margin-right: 0;
+        width: 95%;
+    }
+
 }
 
 @media (max-width: 600px){
