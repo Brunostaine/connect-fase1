@@ -20,7 +20,6 @@ form {
 
 .form p {
     font-family: var(--font-paragrafo);
-    
 }
 
 .form-border {
@@ -63,7 +62,6 @@ form {
     width: 400px;
     margin: 4px;
     padding: 4px;
-    
 }
 
 .button {
@@ -86,12 +84,9 @@ form {
 /* MAPA */
 
 .mapa {
-    
-
     margin: auto;
     text-align: center;
     margin-bottom: 32px;
-
 }
 
 .mapa h2 {
@@ -107,3 +102,62 @@ form {
     margin-bottom: 16px;
 }
 
+@media (max-width: 1100px){
+    .form-border {
+        width: 850px;
+    }
+}
+@media (max-width: 900px){
+
+    .header-index {
+        flex-direction: column;
+        border-bottom: none;
+    }
+    .nav-index {
+        width: 100vw;
+    }
+    
+    .nav-index ul {
+        background-color: var(--cor3);
+        justify-content: center;
+    }
+
+    form, .form-border {
+        flex-direction: column;
+    }
+
+    .form-border {
+        width: 90%;
+    }
+
+    .mapa {
+        background-size: cover;
+        margin: 10px;
+    }
+
+    .mapa iframe {
+        width: 100%;
+    }
+}
+
+@media (max-width: 600px) {
+    .form-border {
+        border: none;    
+    }
+
+    form {
+        width: 100%;
+        background-size: cover;
+    }
+    
+    .formulario-item {
+        width: 100%;
+        background-size: cover;
+    }
+
+    .formulario-item input, .formulario-item select {  
+        margin: 4px;
+        padding: 4px;
+        width: 100%;
+    }
+}

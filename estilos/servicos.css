@@ -192,6 +192,7 @@
 
     .header-index {
         flex-direction: column;
+        border-bottom: none;
     }
     .nav-index {
         width: 100vw;
