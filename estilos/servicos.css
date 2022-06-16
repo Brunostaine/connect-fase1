@@ -31,6 +31,7 @@
 .servicos img {
     box-shadow: 1px 1px 10px 1px #777;
     margin-bottom: 16px;
+    background-size: cover;
 }
 
 .card {
@@ -42,6 +43,7 @@
 }
 
 .card-item {
+    
     border: 1px solid #777;
     box-shadow: 1px 1px 10px 1px #777;
     border-radius: 5px;
@@ -50,7 +52,7 @@
     margin: 8px;
     padding: 8px;
     background-color: var(--azul);
-    transition: all 1s;
+    transition: 1s;
 }
 
 .card-item:hover {
@@ -78,6 +80,7 @@
     border: none;
     font-family: var(--font-paragrafo);
     transition: .6s;
+    
 }
 .card button:hover {
     background-color: var(--azulHover);
@@ -161,8 +164,6 @@
 .videos iframe {
     width: 400px;
     height: 250px;
-    
-
 
     border-radius: 5px;
     box-shadow: 1px 1px 5px 2px #777;
@@ -171,27 +172,118 @@
 
 
 @media (max-width: 1300px){
+
+    .servicos img{
+        width: 90%;
+    }
     .videos{
         flex-direction: column;
+        justify-content: center;
         align-items: center;
     }
 
     .videos iframe{
-        width: 600px;
+        width: 500px;
         height: 350px;
     }
 }
 
 @media (max-width: 900px){
-    .videos iframe{
-        width: 500px;
-        height: 300px;
+
+    .header-index {
+        flex-direction: column;
     }
+    .nav-index {
+        width: 100vw;
+    }
+    
+    .nav-index ul {
+        background-color: var(--cor3);
+        justify-content: center;
+    }
+
+    .servicos p {
+        width: 100%;
+        padding: 16px;
+    }
+
+    .servicos img {
+        box-shadow: none;
+        
+        background-size: cover;
+    }
+
+    .card {
+        flex-direction: column;  
+        justify-content: center;
+        align-items: center;
+        
+    }
+    
+    .card-item {   
+        display: flex;
+        flex-direction: column;   
+        border-radius: 5px;
+        width: 500px;
+        height: 250px;
+        transition: none;
+    }
+
+    .card-item h3 {
+        margin: 16px 0;
+        font-size: 1.5rem;
+    }
+    
+    .card-item p {
+        padding: 10px;
+        font-size: 1.2rem;
+        margin: 16px auto;
+    }
+    
+    .card button {
+        
+        
+        transition: none;
+    }
+
+    .sistemas {
+        padding: 16px;
+    }
+
+    .sistemas p {
+        width: 100%;
+    }
+    
+    .videos iframe {
+        width: 375px;
+        height: auto;
+    }
+    
 }
 
 @media (max-width: 600px){
-    .videos iframe{
+
+    .servicos img {
+        width: 100%;
+    }
+
+    .card {
+        margin: 10px;
+    }
+    .card-item {   
+        border-radius: 0;
+        box-shadow: none;
         width: 100%;
         height: auto;
     }
+    .videos iframe {
+        
+        
+        border-radius: 0;
+        box-shadow: none;
+        padding: 10px;
+        
+    }
+
 }
+
