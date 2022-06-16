@@ -33,9 +33,13 @@
 }
 
 .nav-index ul li a:hover {
-    
     color: var(--cinza2);
-    
+}
+
+@media (max-width: 900px) {
+    .nav-index ul li a {
+        color: var(--branca);
+    }
 }
 
 @media (max-width: 600px) {
