@@ -171,7 +171,6 @@
     }
 
     .quem-somos {
-        
         flex-direction: column;
         width: 100%;
         padding: 0;
@@ -192,7 +191,7 @@
 
     .o-que-fazemos div {
         margin-right: 0;
-        width: 95%;
+        width: 100%;
     }
 
     .objetivos p {        
@@ -204,16 +203,51 @@
         height: auto;
     
         border-radius: 0;
-        box-shadow: 1px 1px 10px #777;
+        
     }
 
 }
 
 @media (max-width: 600px){
-    .nav-index ul {
+
+    .quem-somos img {
+        width: 100%;
+        padding: 10px;
+        border-radius: 0;
+        box-shadow: none;
+        background-size: cover;
+    }
+
+    .o-que-fazemos img {
+        width: 100%;
+        padding: 10px;
+        border-radius: 0;
+        box-shadow: none;
+        background-size: cover;
+    } 
+    .o-que-fazemos div {
+        margin-left: 0;
+        padding: 10px;
         
-        flex-direction: column;
-        margin-bottom: 16px;
+    }
+
+    .o-que-fazemos p {
+        padding: 10px;
+        margin: auto;
+    }
+    
+    
+    .objetivos h2 {
+        font-size: 3rem;
+    }
+
+    .objetivos img {
+        padding: 10px;
+        width: 100%;
+        background-size: cover;      
+    
+        border-radius: 0;
+        box-shadow: none;
     }
 
 }

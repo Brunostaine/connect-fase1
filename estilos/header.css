@@ -29,11 +29,19 @@
     font-weight: 600;
     font-size: 1.2rem;
     text-decoration: none;
-    transition: all .6s;
+    transition: .6s;
 }
 
 .nav-index ul li a:hover {
     
     color: var(--cinza2);
     
+}
+
+@media (max-width: 600px) {
+    .nav-index ul {
+        
+        flex-direction: column;
+        margin-bottom: 16px;
+    }
 }
